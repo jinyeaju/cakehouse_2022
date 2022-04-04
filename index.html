@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake House</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".cakesMenu").click(function(){
+                $("html, body").animate({scrollTop:$(".cakes").offset().top - 60}, 1000);
+                return false;
+            });
+            $(".serviceMenu").click(function(){
+                $("html, body").animate({scrollTop:$(".service").offset().top - 60}, 1000);
+                return false;
+            });
+            $(".chefsMenu").click(function(){
+                $("html, body").animate({scrollTop:$(".chefs").offset().top - 60}, 1000);
+                return false;
+            });
+            $(".contactMenu").click(function(){
+                $("html, body").animate({scrollTop:$(".contact").offset().top - 60}, 1000);
+                return false;
+            });
+        });
+    </script>
+</head>
+<body>
+
+    
+    <div class="header_top">
+        <div class="wrap">
+            <div class="left">
+                <ul>
+                    <li><a href="#"><img src="./img/phone.png" alt="핸드폰 아이콘"></a></li>
+                    <li><a href="#">+45 827 3846</a></li>
+                    <li><a href="#"><img src="./img/email.png" alt="이메일 아이콘"></a></li>
+                    <li><a href="#">cb_chef@cb.br</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#" target="_blank"><img src="./img/sns-icon/youtube.png" alt="유튜브 아이콘"></a></li>
+                    <li><a href="#" target="_blank"><img src="./img/sns-icon/pinterest.png" alt="핀터레스트 아이콘"></a></li>
+                    <li><a href="#" target="_blank"><img src="./img/sns-icon/facebook.png" alt="페이스북 아이콘"></a></li>
+                    <li><a href="#" target="_blank"><img src="./img/sns-icon/insta.png" alt="인스타그램 아이콘"></a></li>
+                    <li><a href="#" target="_blank"><img src="./img/sns-icon/twitter.png" alt="트위터 아이콘"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="header_bottom">
+        <div class="wrap">
+            <ul>
+                <li class="cakesMenu"><a href="#">Cakes</a></li>
+                <li class="serviceMenu"><a href="#">Service</a></li>
+                <li class="logoMenu"><a href="#"><img src="./img/logo.png" alt="케이크하우스 로고 이미지"></a></li>
+                <li class="chefsMenu"><a href="#">Chefs</a></li>
+                <li class="contactMenu"><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <section id="main1">
+        <div class="wrap">
+            <div class="text_part">
+                <h1>Quality Products...<br>with sweet, eggs & breads</h1>
+                <p>This drastic appeal for baked goods promoted baking all throughout Eroupe and expended into the eatern parts of Asia</p>
+                <a href="#">See the recipe</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="main2" class="cakes">
+        <div class="wrap">
+            <div class="title">
+                <h3>Our Featured Cakes</h3>
+                <p>Cake & Bakery make delicious products</p>
+            </div>
+
+            <div class="cont">
+                <div class="box">
+                    <div class="whiteBox">
+                        <h3>Chocho Cupcake</h3>
+                        <p>$8.00</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <div class="whiteBox">
+                        <h3>Happy Glory</h3>
+                        <p>$35.00</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="whiteBox">
+                        <h3>Choco Berry</h3>
+                        <p>$7.50</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="whiteBox">
+                        <h3>Raseberry Cakes</h3>
+                        <p>$7.50</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="whiteBox">
+                        <h3>Chocho Brownie</h3>
+                        <p>$8.00</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="whiteBox">
+                        <h3>Berry Pie</h3>
+                        <p>$45.00</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="whiteBox">
+                        <h3>Sugar Party</h3>
+                        <p>$40.00</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="whiteBox">
+                        <h3>Cute Bunny</h3>
+                        <p>$52.00</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="main3" class="service">
+        <div class="wrap">
+            <div class="title">
+                <h3>Offer Services</h3>
+                <div class="line_box"></div>
+            </div>
+
+            <div class="cont">
+                
+                <div class="box">
+                    <a href="#"><img src="./img/offer-1.png" alt="쿠키 케이크 아이콘"></a>
+
+                    <div class="text_part">
+                        <h3>Cookie Cakes</h3>
+                        <p>we offer the best cookies cakes. We can send out a delicious treats on your behalf.</p>
+                        <a href="#">MORE</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <a href="#"><img src="./img/offer-2.png" alt="테이스트 케이크 아이콘"></a>
+
+                    <div class="text_part">
+                        <h3>Tasty Cupcakes</h3>
+                        <p>our tasty cupcakes are so tasty that if you taste once you will fall in love instantly.</p>
+                        <a href="#">MORE</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <a href="#"><img src="./img/offer-3.png" alt="웨딩 케이크 아이콘"></a>
+
+                    <div class="text_part">
+                        <h3>Wedding Cakes</h3>
+                        <p>celebrate your team, thank colleagues and impress clients with something sweet and memorable!</p>
+                        <a href="#">MORE</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <a href="#"><img src="./img/offer-4.png" alt="레시피 아이콘"></a>
+
+                    <div class="text_part">
+                        <h3>Awesome Recipes</h3>
+                        <p>these old methods of baking were almost completely eradicated when these new methods were introduced and became industrialised.</p>
+                        <a href="#">MORE</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <a href="#"><img src="./img/offer-5.png" alt="메뉴 아이콘"></a>
+
+                    <div class="text_part">
+                        <h3>Menu Planner</h3>
+                        <p>A light, sour wheat dough with roasted walnuts and freshly picked rosemary, thyme, poppy seeds, parsley and sage.</p>
+                        <a href="#">MORE</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <a href="#"><img src="./img/offer-6.png" alt="배송 아이콘"></a>
+
+                    <div class="text_part">
+                        <h3>Home Delivery</h3>
+                        <p>you find our competitors offering better quality for even same price, we will offer you same product for free. </p>
+                        <a href="#">MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="main4" class="chefs">
+        <div class="wrap">
+            <div class="title">
+                <h3>Our Chefs</h3>
+                <p>Pastry chefs specialise in making pastries, desserts, breads and other baked dishes. These chefs are vital in a restaurant kitchen and we’ve got a growing list of famous pastry chefs from around the world.</p>
+            </div>
+
+            <div class="box">
+                <div class="img_part"></div>
+
+                <div class="text_part">
+                    <h3>Smith. G</h3>
+                    <p>Smith. G skills as a pastry chef helped him create a line of successful shops.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="img_part"></div>
+
+                <div class="text_part">
+                    <h3>Elizabeth Falkner</h3>
+                    <p>Elizabeth Falkner is a pastry chef, chef, author, TV personality, artist and culinary instigator.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="img_part"></div>
+
+                <div class="text_part">
+                    <h3>Duff Goldman</h3>
+                    <p>You might have seen Duff Goldman on the reality TV show Ace of Cakes which features his Charm City Cakes shop.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="main5" class="contact"><!--po:relative-->
+        <div id="map"></div>
+        <div class="contact_space"><!--po:absolute-->
+            <div class="wrap">
+                <div class="contact_box">
+                    <div class="title_part">
+                        <h2>Contact Us</h2>
+                        <p>Our Company is the best, meet the 
+                            creative team that never sleeps. Say 
+                            something to us we will answer to you.</p>
+                    </div>
+                    <div class="input_part">
+                        <form action="" method="post">
+                            <div class="inputLine">
+                                <input type="text" name="name" placeholder="NAME" autocomplete="off" required>
+                            </div>
+                            <div class="inputLine">
+                                <input type="email" name="email" placeholder="EMAIL" autocomplete="off" required>
+                            </div>
+                            <div class="inputLine">
+                                <input type="text" name="phone" placeholder="PHONE NUMBER" autocomplete="off" required>
+                            </div>
+                            <div class="inputLine">
+                                <input type="text" name="message" placeholder="YOUR MESSAGE" autocomplete="off" required>
+                            </div>
+
+                            <div class="inputBtn">
+                                <!-- 이미지가 포함된 버튼을 구성해야 한다면? -->
+                                <!-- <input type="submit" value="<img src='./img/paperPlane.png' alt=''> SEND MESSAGE"> -->
+                                <button type="submit"><img src="./img/paperPlane.png" alt=""><span>SEND MESSAGE</span></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <footer id="footer">
+        <div class="wrap">
+            <div class="footer_top">
+                <div class="title">
+                    <div class="logo">
+                        <a href="#"><img src="./img/footer_logo.png" alt="케이크 하우스 하단 로고"></a>
+                    </div>
+                    <p>We also make cupcakes, eclairs, profiteroles, scones, slices and many other sweet delicacie</p>
+                </div>
+
+                <ul>
+                    <li>
+                        <h3>Quick links</h3>
+                        <ul>
+                            <li><a href="#">Your Account</a></li>
+                            <li><a href="#">View Order</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h3>Work Times</h3>
+                        <ul>
+                            <li>Mon. : Thu.: 8 am - 8 pm</li>
+                            <li>Fri. : 8 am - 8 pm</li>
+                            <li>Sat. : 9am - 4pm</li>
+                            <li>Sun. : Closed</li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h3>Contact Info</h3>
+                        <ul>
+                            <li><p>(1800) 574 9687</p></li>
+                            <li>Cakecious Store</li>
+                            <li>256, baker Street, New York, 5245</li>
+                            <li><p>cakeciousdemo@email.com</p></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <p>Cakecious © 2021 All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMOwJdqgkxI6MQb4E95pSSBF1TABF5pZA&callback=initMap"></script>
+    <script>
+        function initMap() { 
+            var uluru = {lat: 51.519987, lng: -0.156517}; //lat(latitude, 위도), lng(longitude, 경도)
+            var map = new google.maps.Map(document.getElementById('map'), { 
+                zoom: 17, 
+                center: uluru 
+            }); 
+            var marker = new google.maps.Marker({ position: uluru, map: map }); 
+        }
+    </script>
+</body>
+</html>
